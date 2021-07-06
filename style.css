@@ -35,7 +35,7 @@ body{
  nav ul li a{
      text-decoration: none;
      color: #fff;
-     cursor: pointer;
+     cursor:pointer;
  }
  nav ul li a.active{
      text-decoration: underline;
@@ -45,12 +45,13 @@ body{
      border-radius: 5px;
      
  }
- nav ul li a.active:active{
-    background-image: linear-gradient(rgb(108, 136, 67),rgb(149, 31, 10),rgb(41, 26, 53));
+ nav ul li a.active{
+    background-image: linear-gradient(rgb(211, 31, 142),rgb(92, 31, 21),rgb(180, 145, 79));
  }
   
  nav ul li a:hover{
-     background-image: linear-gradient(rgb(108, 136, 67),rgb(149, 31, 10),rgb(41, 26, 53));
+     
+     background-image: linear-gradient(rgb(211, 31, 142),rgb(92, 31, 21),rgb(180, 145, 79));
      text-decoration: underline;
      padding: 20px;
      border-radius: 5px;
