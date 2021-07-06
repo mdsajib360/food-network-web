@@ -35,9 +35,9 @@ body{
      cursor:pointer;
  }
  nav ul li a.active{
-     text-decoration: underline;
-     text-decoration-color:gold;
-     background-image: linear-gradient(rgb(211, 31, 142),rgb(92, 31, 21),rgb(180, 145, 79));
+     
+     
+     background-color: tomato;
      padding: 20px;
      border-radius: 5px;
      
@@ -46,11 +46,11 @@ body{
   
  nav ul li a:hover{
      
-    text-decoration: underline;
-    text-decoration-color:gold;
-    background-image: linear-gradient(rgb(211, 31, 142),rgb(92, 31, 21),rgb(180, 145, 79));
-    padding: 20px;
-    border-radius: 5px;
+     text-decoration-color:gold;
+     background-color: tomato;
+     padding: 20px;
+     border-radius: 5px;
+    
     
  }
 
@@ -156,12 +156,12 @@ body{
 }
 
 .half-food{
-    width: 350px;
+    width: 400px;
     margin-top: 30px;
     box-shadow: 10px 10px 10px 10px rgb(226, 225, 225);
     padding: 20px;
     border-radius: 20px;
-    height: 510px;
+    height: 550px;
 }
 .half-food img{
     border-radius: 20px;
@@ -182,7 +182,7 @@ button{
     display: flex;
     justify-content: space-around;
     box-shadow: 10px 10px 10px 10px rgb(226, 225, 225);
-    margin:150px 150px 150px 150px;
+    margin:150px 100px 150px 100px;
     padding: 50px;
     border-radius: 20px;
     
@@ -215,4 +215,5 @@ button{
 .footer-n{
     padding:20px 20px 150px 20px;
     font-size: 25px;
+    margin-bottom: 0;
 }
