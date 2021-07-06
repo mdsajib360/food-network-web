@@ -34,13 +34,13 @@ body{
  }
  nav ul li a{
      text-decoration: none;
-     color: rgb(243, 93, 6);
+     color: #fff;
      cursor: pointer;
  }
  nav ul li a.active{
      text-decoration: underline;
      text-decoration-color:gold;
-     background-color: indigo;
+     background-image: linear-gradient(rgb(108, 136, 67),rgb(149, 31, 10),rgb(41, 26, 53));
      padding: 20px;
      border-radius: 5px;
      
