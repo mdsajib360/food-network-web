@@ -35,9 +35,9 @@ body{
      cursor:pointer;
  }
  nav ul li a.active{
-     text-decoration: underline;
-     text-decoration-color:gold;
-     background-image: linear-gradient(rgb(211, 31, 142),rgb(92, 31, 21),rgb(180, 145, 79));
+     
+     
+     background-color: tomato;
      padding: 20px;
      border-radius: 5px;
      
@@ -46,11 +46,11 @@ body{
   
  nav ul li a:hover{
      
-    text-decoration: underline;
-    text-decoration-color:gold;
-    background-image: linear-gradient(rgb(211, 31, 142),rgb(92, 31, 21),rgb(180, 145, 79));
-    padding: 20px;
-    border-radius: 5px;
+     text-decoration-color:gold;
+     background-color: tomato;
+     padding: 20px;
+     border-radius: 5px;
+    
     
  }
 
@@ -152,16 +152,17 @@ body{
     
 }
 .flexible-food h3{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .half-food{
-    width: 350px;
+    width: 450px;
     margin-top: 30px;
     box-shadow: 10px 10px 10px 10px rgb(226, 225, 225);
     padding: 20px;
     border-radius: 20px;
-    height: 510px;
+    height: 600px;
+    box-sizing: border-box;
 }
 .half-food img{
     border-radius: 20px;
