@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.flexible-width{
+   display: flex;
+}
+
+/*---------------
+ first section start
+ -----------------*/
+.orange-color{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    font-size: 45px;
+    font-weight: bold;
+    margin:auto;
+    
+    
+}
+
+.half-width img{
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+    
+    
+}
+.link{
+    background-color: #fc8d48;
+    padding:40px;
+    text-decoration: none;
+    border-radius: 70px;
+    color:#fff;
+    
+}
+
+.text-spacing{
+    letter-spacing:10px 2px;
+}
+
+.first-section h1{
+    line-height:0.5;
+    letter-spacing:2px;
+    color: #575757;
+}
+.first-section p,.about-section h1{
+    color: #575757;
+}
+
+/*-----------------
+ second section start
+ -----------------*/
+
+ .about-section{
+     background-image: url(images/shapes/7.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+.about-section img{
+    width: 50%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+/*-----------------
+ third second start
+ /* -----------------*/
+  /* intro part  */
+ #fd-intro{
+     text-align:center;
+     margin-top: 50px;
+     font-size: 50px;
+     font-weight: bold;
+     color: #575757;
+ }
+
+ #fdDiscrip{
+     display: block;
+     width:50%;
+     margin: 50px auto;
+     text-align: center;
+     font-size: 1.5rem;
+ }
+
+ /* intro part end  */
+
+ 
+.flexible-food{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.half-food{
+    width: 300px;
+}
+
